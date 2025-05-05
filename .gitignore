@@ -1,0 +1,26 @@
+# Ignore Jekyll build output
+_site/
+
+# Ignore Sass cache
+.sass-cache/
+
+# Ignore temporary files and system files
+*.log
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Ignore node-related files if using npm/yarn
+node_modules/
+
+# Ignore environment and dependency files
+.env
+*.env
+
+# Ignore Ruby bundler files (if using)
+.bundle/
+vendor/
+
+# Ignore local Jekyll config overrides
+_config.local.yml
