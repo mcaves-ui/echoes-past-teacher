@@ -1,0 +1,60 @@
+---
+# front matter
+---
+
+.bg-light-blue {
+  background-color: #dce3c7; /* Light greenish background */
+}
+
+/* Set Montserrat as the default font for all header text */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #2F2F2F;
+}
+
+hr {
+  border: none;
+  height: 20px;
+  background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 120 28' xmlns='http://www.w3.org/2000/svg'><path d='M0 14 Q30 0 60 14 T120 14' fill='transparent' stroke='%232F2F2F' stroke-width='2'/></svg>") repeat-x;
+  background-size: contain;
+}
+
+.symbol-container {
+  display: flex;
+  justify-content: center; /* Center the symbol horizontally */
+  align-items: center; /* Center the symbol vertically */
+  width: 100%; /* Ensure full width */
+}
+
+.symbol {
+  font-size: 1.3rem;
+  margin: 0; /* Remove default margin */
+  color: #00448c; /* Set the color of the symbol */
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  color: #212121;
+  font-size: 1.15rem;
+  line-height: 1.7; 
+}
+
+body {
+  background-color: #dce3c7;
+}
+
+// set color for footer nav buttons (optional!)
+$nav-pills: #004488;
+
+// Tweak body text and link color (optional!)
+$text-color: #000000 !default;
+$link-color: #004488 !default;
+$base-font-size: 1.15rem;
+
+// limit container size to make reading easier (optional!)
+$container-max: 750px;
+
+// Import partials.
+@import
+  "template", "custom"
+;
